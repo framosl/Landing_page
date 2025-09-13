@@ -1,0 +1,76 @@
+/* ===== Formulario de contacto ===== */
+#contacto {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#contacto h2 {
+  margin-bottom: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+/* Formulario */
+form {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: left;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+label {
+  display: block;
+  margin: 12px 0 5px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #60a3bc;
+  box-shadow: 0 0 8px rgba(96, 163, 188, 0.5);
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  height: 130px;
+}
+
+button {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 14px 28px;
+  background: linear-gradient(45deg, #ff6b6b, #feca57, #48dbfb);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  form { padding: 20px; }
+  input, textarea { font-size: 0.95em; }
+  button { width: 100%; }
+}
